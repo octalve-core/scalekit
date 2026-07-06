@@ -104,8 +104,8 @@ export function VaultStripNav() {
                       className={[
                         "relative inline-flex items-center justify-center whitespace-nowrap border-b-2 px-1 pb-4 pt-4 text-sm font-medium tracking-[-0.01em] transition-colors duration-200",
                         isActive
-                          ? "border-[#2563EB] text-white"
-                          : "border-transparent text-slate-500 hover:text-white",
+                          ? "border-[#2563EB] text-[#2563EB]"
+                          : "border-transparent text-slate-500 hover:text-[#2563EB]",
                       ].join(" ")}
                     >
                       {label}

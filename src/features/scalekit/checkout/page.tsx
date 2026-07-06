@@ -149,7 +149,7 @@ export default function VaultCheckoutPage() {
           ) : (
             <div className="mt-10 grid gap-6 lg:grid-cols-[1fr_360px]">
               <div className="rounded-[28px] border border-slate-200 bg-white p-8">
-                <h2 className="text-xl font-semibold text-white">
+                <h2 className="text-xl font-semibold text-slate-950">
                   Customer details
                 </h2>
 
@@ -177,7 +177,7 @@ export default function VaultCheckoutPage() {
                 </div>
 
                 <div className="mt-8 rounded-2xl border border-blue-100 bg-blue-50 p-5">
-                  <h3 className="text-base font-semibold text-white">
+                  <h3 className="text-base font-semibold text-slate-950">
                     Delivery rule
                   </h3>
                   <p className="mt-2 text-sm leading-7 text-slate-700">
@@ -196,7 +196,7 @@ export default function VaultCheckoutPage() {
                 </div>
 
                 <div className="mt-8">
-                  <h3 className="text-base font-semibold text-white">
+                  <h3 className="text-base font-semibold text-slate-950">
                     Payment methods
                   </h3>
 
@@ -242,7 +242,7 @@ export default function VaultCheckoutPage() {
               </div>
 
               <aside className="rounded-[28px] border border-slate-200 bg-slate-50 p-6 md:p-8">
-                <h3 className="text-lg font-semibold text-white">
+                <h3 className="text-lg font-semibold text-slate-950">
                   Order Summary
                 </h3>
 
@@ -272,7 +272,7 @@ export default function VaultCheckoutPage() {
                           </p>
                         </div>
 
-                        <p className="shrink-0 text-sm font-semibold text-white">
+                        <p className="shrink-0 text-sm font-semibold text-slate-950">
                           {formatUsd(item.product.price)}
                         </p>
                       </div>
@@ -281,7 +281,7 @@ export default function VaultCheckoutPage() {
                 </div>
 
                 <div className="mt-6 border-t border-slate-200 pt-4">
-                  <div className="flex items-center justify-between text-base font-semibold text-white">
+                  <div className="flex items-center justify-between text-base font-semibold text-slate-950">
                     <span>Total</span>
                     <div className="text-right">
                       <div>{formatUsd(subtotal)}</div>

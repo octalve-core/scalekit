@@ -81,10 +81,10 @@ export default function VaultProductDetailsModal({
                 <p className="text-xs font-semibold uppercase tracking-[0.14em] text-blue-600">
                   {product.category}
                 </p>
-                <h3 className="mt-2 text-2xl font-semibold tracking-[-0.02em] text-white">
+                <h3 className="mt-2 text-2xl font-semibold tracking-[-0.02em] text-slate-950">
                   {product.title}
                 </h3>
-                <p className="mt-3 text-base font-semibold text-white">
+                <p className="mt-3 text-base font-semibold text-slate-950">
                   {formatUsd(product.price)}
                 </p>
               </div>

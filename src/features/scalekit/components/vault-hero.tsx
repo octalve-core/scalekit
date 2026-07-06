@@ -70,7 +70,7 @@ export default function VaultHero() {
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Link
             href="/shop"
-            className="inline-flex min-h-[56px] w-full items-center justify-center gap-2 rounded-xl bg-[#E61525] px-8 text-sm font-medium text-white shadow-[0_16px_38px_rgba(230,21,37,0.24)] transition hover:-translate-y-0.5 hover:bg-[#CF1020] sm:w-auto"
+            className="inline-flex min-h-[56px] w-full items-center justify-center gap-2 rounded-xl bg-[#E61525] px-8 text-sm font-medium !text-white [&_*]:!text-white shadow-[0_16px_38px_rgba(230,21,37,0.24)] transition hover:-translate-y-0.5 hover:bg-[#CF1020] sm:w-auto"
           >
             Explore Products
             <ArrowRight className="h-4 w-4" strokeWidth={1.9} />
@@ -78,7 +78,7 @@ export default function VaultHero() {
 
           <Link
             href="#vault-faq"
-            className="inline-flex min-h-[56px] w-full items-center justify-center gap-2 rounded-xl border border-white/12 bg-[#0064E0] px-8 text-sm font-medium text-white shadow-[0_16px_38px_rgba(0,100,224,0.22)] transition hover:-translate-y-0.5 hover:bg-[#0057C7] sm:w-auto"
+            className="inline-flex min-h-[56px] w-full items-center justify-center gap-2 rounded-xl border border-white/12 bg-[#0064E0] px-8 text-sm font-medium !text-white [&_*]:!text-white shadow-[0_16px_38px_rgba(0,100,224,0.22)] transition hover:-translate-y-0.5 hover:bg-[#0057C7] sm:w-auto"
           >
             How ScaleKit Works
             <ChevronRight className="h-4 w-4" strokeWidth={1.9} />

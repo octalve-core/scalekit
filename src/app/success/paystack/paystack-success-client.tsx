@@ -146,7 +146,7 @@ export default function PaystackSuccessClient() {
 
           <Link
             href="/checkout"
-            className="inline-flex rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-white transition-colors duration-200 hover:border-slate-300 hover:bg-slate-50"
+            className="inline-flex rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-900 transition-colors duration-200 hover:border-slate-300 hover:bg-slate-50"
           >
             Return to Checkout
           </Link>

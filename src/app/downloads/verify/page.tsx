@@ -100,7 +100,7 @@ export default async function ScaleKitDownloadsVerifyPage({
                 name="email"
                 type="email"
                 required
-                className="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm text-white outline-none focus:border-[#0064E0]"
+                className="mt-2 w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 outline-none focus:border-[#0064E0]"
               />
 
               <label className="mt-4 block text-sm font-medium text-slate-700">
@@ -112,7 +112,7 @@ export default async function ScaleKitDownloadsVerifyPage({
                 type="text"
                 inputMode="numeric"
                 required
-                className="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm text-white outline-none focus:border-[#0064E0]"
+                className="mt-2 w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 outline-none focus:border-[#0064E0]"
               />
 
               <button
