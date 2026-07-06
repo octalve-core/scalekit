@@ -32,7 +32,7 @@ export default async function ScaleKitDownloadsVerifyPage({
           ScaleKit Product Access
         </p>
 
-        <h1 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-slate-950 sm:text-4xl">
+        <h1 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-white sm:text-4xl">
           Verify your payment email
         </h1>
 
@@ -62,7 +62,7 @@ export default async function ScaleKitDownloadsVerifyPage({
             <input type="hidden" name="grantId" value={grant} />
             <input type="hidden" name="token" value={token} />
 
-            <h2 className="text-lg font-semibold text-slate-950">
+            <h2 className="text-lg font-semibold text-white">
               Secure-link verification
             </h2>
 
@@ -88,7 +88,7 @@ export default async function ScaleKitDownloadsVerifyPage({
             >
               <input type="hidden" name="grantId" value={grant} />
 
-              <h2 className="text-lg font-semibold text-slate-950">
+              <h2 className="text-lg font-semibold text-white">
                 OTP verification
               </h2>
 
@@ -100,7 +100,7 @@ export default async function ScaleKitDownloadsVerifyPage({
                 name="email"
                 type="email"
                 required
-                className="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm text-slate-900 outline-none focus:border-[#0064E0]"
+                className="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm text-white outline-none focus:border-[#0064E0]"
               />
 
               <label className="mt-4 block text-sm font-medium text-slate-700">
@@ -112,7 +112,7 @@ export default async function ScaleKitDownloadsVerifyPage({
                 type="text"
                 inputMode="numeric"
                 required
-                className="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm text-slate-900 outline-none focus:border-[#0064E0]"
+                className="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm text-white outline-none focus:border-[#0064E0]"
               />
 
               <button

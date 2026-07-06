@@ -90,7 +90,7 @@ export default function PaystackSuccessClient() {
 
         {state.kind === "loading" && (
           <>
-            <h1 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-slate-950 sm:text-4xl">
+            <h1 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-white sm:text-4xl">
               Verifying your payment...
             </h1>
             <p className="mt-4 text-base leading-8 text-slate-600">
@@ -101,7 +101,7 @@ export default function PaystackSuccessClient() {
 
         {state.kind === "success" && (
           <>
-            <h1 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-slate-950 sm:text-4xl">
+            <h1 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-white sm:text-4xl">
               Payment confirmed.
             </h1>
             <p className="mt-4 text-base leading-8 text-slate-600">
@@ -115,7 +115,7 @@ export default function PaystackSuccessClient() {
 
         {state.kind === "pending" && (
           <>
-            <h1 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-slate-950 sm:text-4xl">
+            <h1 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-white sm:text-4xl">
               Payment received, still confirming.
             </h1>
             <p className="mt-4 text-base leading-8 text-slate-600">
@@ -127,7 +127,7 @@ export default function PaystackSuccessClient() {
 
         {state.kind === "error" && (
           <>
-            <h1 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-slate-950 sm:text-4xl">
+            <h1 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-white sm:text-4xl">
               We could not confirm the payment.
             </h1>
             <p className="mt-4 text-base leading-8 text-slate-600">
@@ -146,7 +146,7 @@ export default function PaystackSuccessClient() {
 
           <Link
             href="/checkout"
-            className="inline-flex rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-800 transition-colors duration-200 hover:border-slate-300 hover:bg-slate-50"
+            className="inline-flex rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-white transition-colors duration-200 hover:border-slate-300 hover:bg-slate-50"
           >
             Return to Checkout
           </Link>

@@ -65,7 +65,7 @@ export default function VaultCartPage() {
                             <p className="text-xs font-semibold uppercase tracking-[0.14em] text-blue-600">
                               {item.product.category}
                             </p>
-                            <h2 className="mt-2 text-lg font-semibold text-slate-950">
+                            <h2 className="mt-2 text-lg font-semibold text-white">
                               {item.product.title}
                             </h2>
                             <p className="mt-2 max-w-2xl text-sm leading-7 text-slate-600">
@@ -74,7 +74,7 @@ export default function VaultCartPage() {
                           </div>
 
                           <div className="flex shrink-0 flex-col items-start gap-3 sm:items-end">
-                            <p className="text-base font-semibold text-slate-950">
+                            <p className="text-base font-semibold text-white">
                               {formatUsd(item.product.price)}
                             </p>
 
@@ -108,7 +108,7 @@ export default function VaultCartPage() {
               </div>
 
               <aside className="rounded-[28px] border border-slate-200 bg-slate-50 p-6 md:p-8">
-                <h3 className="text-lg font-semibold text-slate-950">
+                <h3 className="text-lg font-semibold text-white">
                   Order Summary
                 </h3>
 
@@ -118,7 +118,7 @@ export default function VaultCartPage() {
                     <span>{items.length}</span>
                   </div>
 
-                  <div className="flex items-center justify-between border-t border-slate-200 pt-4 text-base font-semibold text-slate-950">
+                  <div className="flex items-center justify-between border-t border-slate-200 pt-4 text-base font-semibold text-white">
                     <span>Subtotal</span>
                     <span>{formatUsd(subtotal)}</span>
                   </div>

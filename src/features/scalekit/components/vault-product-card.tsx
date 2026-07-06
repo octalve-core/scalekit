@@ -76,7 +76,7 @@ export default function VaultProductCard({
           </p>
 
           <div className="mt-6 flex items-center justify-between gap-4">
-            <p className="text-base font-semibold text-slate-950">
+            <p className="text-base font-semibold text-white">
               {formatUsd(product.price)}
             </p>
 

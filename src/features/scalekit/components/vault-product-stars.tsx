@@ -28,7 +28,7 @@ export default function VaultProductStars({
         ))}
       </div>
 
-      <span className="text-xs font-semibold text-slate-800">
+      <span className="text-xs font-semibold text-white">
         {rating.toFixed(1)}{" "}
         <span className="text-slate-500">({reviewCount})</span>
       </span>

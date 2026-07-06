@@ -16,7 +16,7 @@ export default async function ScaleKitDownloadsReadyPage() {
     return (
       <main className="min-h-screen bg-slate-50 px-4 py-16 sm:px-6 md:py-24">
         <div className="mx-auto max-w-[760px] rounded-[32px] border border-slate-200 bg-white p-8 md:p-10">
-          <h1 className="text-3xl font-semibold tracking-[-0.03em] text-slate-950 sm:text-4xl">
+          <h1 className="text-3xl font-semibold tracking-[-0.03em] text-white sm:text-4xl">
             Verification required
           </h1>
 
@@ -58,7 +58,7 @@ export default async function ScaleKitDownloadsReadyPage() {
           ScaleKit Product Access
         </p>
 
-        <h1 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-slate-950 sm:text-4xl">
+        <h1 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-white sm:text-4xl">
           Your product access is ready
         </h1>
 
@@ -73,7 +73,7 @@ export default async function ScaleKitDownloadsReadyPage() {
               key={grant.id}
               className="rounded-3xl border border-slate-200 bg-slate-50 p-6"
             >
-              <h2 className="text-lg font-semibold text-slate-950">
+              <h2 className="text-lg font-semibold text-white">
                 {grant.orderItem.productTitle}
               </h2>
 

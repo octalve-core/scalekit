@@ -81,10 +81,10 @@ export default function VaultProductDetailsModal({
                 <p className="text-xs font-semibold uppercase tracking-[0.14em] text-blue-600">
                   {product.category}
                 </p>
-                <h3 className="mt-2 text-2xl font-semibold tracking-[-0.02em] text-slate-950">
+                <h3 className="mt-2 text-2xl font-semibold tracking-[-0.02em] text-white">
                   {product.title}
                 </h3>
-                <p className="mt-3 text-base font-semibold text-slate-950">
+                <p className="mt-3 text-base font-semibold text-white">
                   {formatUsd(product.price)}
                 </p>
               </div>
@@ -110,7 +110,7 @@ export default function VaultProductDetailsModal({
               <ul className="mt-4 space-y-3">
                 {product.details.businessBenefits.map((item) => (
                   <li key={item} className="flex items-start gap-3">
-                    <span className="mt-1 h-2.5 w-2.5 rounded-full bg-blue-500" />
+                    <span className="mt-1 h-2.5 w-2.5 rounded-full bg-blue-500 text-white" />
                     <span className="text-sm leading-7 text-slate-700">
                       {item}
                     </span>
